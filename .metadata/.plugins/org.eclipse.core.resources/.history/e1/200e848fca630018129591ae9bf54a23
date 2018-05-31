@@ -1,0 +1,14 @@
+drop database if exists sample1db;
+create database sample1db;
+use sample1db;
+
+create table sample1_table(
+No. int,
+name varchar(50),
+age int,
+Mail varchar(50)
+);
+
+insert into sample1_table values(1,"Yamada",21,"xxx@yahoo.co.jp");
+insert into sample1_table values(2,"Sato",39,"yyy@google.com");
+insert into sample1_table values(3,"Harada",44,"zzz@yahoo.co.jp");

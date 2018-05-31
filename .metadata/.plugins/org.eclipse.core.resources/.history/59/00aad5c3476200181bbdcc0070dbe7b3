@@ -1,0 +1,30 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+
+		Person3 taro=new Person3();
+		taro.name="taro";
+		taro.age=18;
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+
+		Person3 jiro=new Person3("jiro",20);
+		System.out.println(jiro.name);
+		System.out.println(jiro.age);
+		
+		
+		Person3 saburo=new Person3("saburo");
+		System.out.println(saburo.name);
+		System.out.println(saburo.age);
+		
+		
+		Person3 name=new Person3(25);
+		System.out.println(name);
+		System.out.println(name.age);
+
+	}
+
+}

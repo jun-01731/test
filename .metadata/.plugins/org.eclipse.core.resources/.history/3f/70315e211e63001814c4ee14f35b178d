@@ -1,0 +1,3 @@
+drop databese if exists sampledb;
+create database sampledb;
+use sampledb;
