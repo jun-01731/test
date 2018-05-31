@@ -171,7 +171,7 @@ public void delete(String name) {
 	DBConnector db = new DBConnector();
 	Connection con =db.getConnection();
 
-	String sql="delete from test_table where user_name=?";
+	String sql="delete from test_table whwre user_name=?";
 	try {
 		PreparedStatement ps =con.prepareStatement(sql);
 		ps.setString(1, name);
