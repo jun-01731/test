@@ -1,4 +1,5 @@
 package com.internousdev.login.util;
+
 import com.mysql.jdbc.Connection;
 
 public class DBConnector {
