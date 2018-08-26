@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;LoginDAO.java&apos; to &apos;ecsite2/src/com.internousdev.ecsite2.dao&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;ecsite2&apos;&#x0D;&#x0A;- 宛先要素: &apos;ecsite2/src/com.internousdev.ecsite2.dao&apos;&#x0D;&#x0A;- オリジナル要素: &apos;com.internousdev.ecsite2.dto.LoginDAO.java&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="/src&lt;com.internousdev.ecsite2.dao" element1="/src&lt;com.internousdev.ecsite2.dto{LoginDAO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1532516978031" units="1" version="1.0"/>
+</session>

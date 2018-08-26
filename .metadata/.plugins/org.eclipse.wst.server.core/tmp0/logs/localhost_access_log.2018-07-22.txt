@@ -1,0 +1,10 @@
+127.0.0.1 - - [22/Jul/2018:11:22:43 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:11:22:44 +0900] "GET /WebProj5/helloStrutsError.jsp HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:12:08:22 +0900] "GET /WebProj5/ HTTP/1.1" 200 463
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:12:08:26 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=273A9A13DA3EBA92629CFB5B57FCB103 HTTP/1.1" 200 713
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:12:08:26 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jul/2018:19:40:44 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:19:40:47 +0900] "GET /WebProj5/ HTTP/1.1" 200 788
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:19:40:50 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=5F25E3DB2E346839BCB9BDCECCAEA8A0 HTTP/1.1" 200 713
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:19:40:50 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Jul/2018:19:40:53 +0900] "POST /WebProj5/WelcomeAction.action;jsessionid=5F25E3DB2E346839BCB9BDCECCAEA8A0 HTTP/1.1" 200 835

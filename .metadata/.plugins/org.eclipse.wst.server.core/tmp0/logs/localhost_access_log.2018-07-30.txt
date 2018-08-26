@@ -1,0 +1,9 @@
+127.0.0.1 - - [30/Jul/2018:13:40:55 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:13:40:57 +0900] "GET /ecsite2/userCreateConfirm.jsp HTTP/1.1" 200 2226
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:13:48:37 +0900] "GET /ecsite2/userCreateComplete.jsp HTTP/1.1" 200 1397
+127.0.0.1 - - [30/Jul/2018:19:18:39 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:19:18:39 +0900] "GET /ecsite2/userCreateComplete.jsp HTTP/1.1" 200 1441
+127.0.0.1 - - [30/Jul/2018:21:06:44 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:21:06:46 +0900] "GET /ecsite2/buyItemConfirm.jsp HTTP/1.1" 200 2401
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:21:07:28 +0900] "GET /ecsite2/buyItem.jsp HTTP/1.1" 200 2518
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:21:21:34 +0900] "GET /ecsite2/buyItemComplete.jsp HTTP/1.1" 200 1511

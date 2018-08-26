@@ -1,0 +1,27 @@
+package com.internousdev.ecsite.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.interceptor.SessionAware;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Map;
+import com.internousdev.ecsite.dao.UserInfoDAO;
+import com.internousdev.ecsite.dto.LoginDTO;
+
+public class UserInfoAllAction extends ActionSupport implements SessionAware{
+	public Map<String, Object> session;
+	private UserInfoDAO dao = new UserInfoDAO();
+	private ArrayList<LoginDTO> userList = new ArrayList<LoginDTO>();
+
+	if(!session.containsKey("userList")) {
+		userList = dao.getUserInfo();
+		session.put("userList", userList);
+	}
+	return SUCCESS;
+
+	@Override
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
+	}
+
+}

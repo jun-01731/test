@@ -1,0 +1,30 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import util.DBConnector;
+import util.DateUtil;
+
+public class CreateTodoDAO {
+	private DBConnector dbConnector = new DBConnector();
+	private Connection connection = dbConnector.getConnection();
+	private DateUtil dateUtil = new DateUtil();
+
+	private String sql = "INSERT INTO todo_list(todo, insert_date) VALUES(?, ?)";
+
+	public void createTodo(String todo) throws SQLException{
+		try {
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, todo);
+			preparedStatement.setString(2, dateUtil.getDate());
+
+			preparedStatement.executeQuery();
+	} catch(Exception e) {
+		e.printStackTrace();
+	} finally {
+		connection.close();
+	}
+	}
+
+}

@@ -1,0 +1,7 @@
+127.0.0.1 - - [09/Jul/2018:19:11:46 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [09/Jul/2018:19:11:49 +0900] "GET /template2/buyItem.jsp HTTP/1.1" 200 2871
+127.0.0.1 - - [09/Jul/2018:20:46:52 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [09/Jul/2018:20:46:54 +0900] "GET /template2/ HTTP/1.1" 200 1734
+0:0:0:0:0:0:0:1 - - [09/Jul/2018:20:46:57 +0900] "POST /template2/HomeAction.action;jsessionid=415429D00E778B750C2F13A6096A2FAA HTTP/1.1" 200 2122
+0:0:0:0:0:0:0:1 - - [09/Jul/2018:20:47:09 +0900] "POST /template2/LoginAction.action HTTP/1.1" 200 2685
+0:0:0:0:0:0:0:1 - - [09/Jul/2018:20:47:32 +0900] "POST /template2/BuyItemAction.action HTTP/1.1" 200 1954

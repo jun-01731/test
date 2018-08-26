@@ -1,0 +1,24 @@
+package com.internousdev.ecsite.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.interceptor.SessionAware;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Map;
+import com.internousdev.ecsite.dao.ProductDAO;
+import com.internousdev.ecsite.dto.ProductDTO;
+
+public class ProductAllAction extends ActionSupport implements SessionAware{
+	public Map<String, Object> session;
+	private ProductDAO dao = new ProductDAO();
+	private ArrayList<ProductDTO> productList = new ArrayList<ProductDTO>();
+	private String deleteFlg;
+	private String message;
+	
+	public String execute() throws SQLException{
+		if(deleteFlg == null) {
+			String 
+		}
+	}
+
+}

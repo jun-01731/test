@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category expanded="true" name="カテゴリーなし">
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="CheckLoadJDBC"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="DocsConnectionPropsHelper"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="HelloWorld"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Iphone"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Iphone (1)"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Iphone3"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Test"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="TODO"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="ローカル・ホスト の Tomcat8 (Java8)"/>
+</category>
+</runner>

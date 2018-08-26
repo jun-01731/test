@@ -1,0 +1,43 @@
+package todo.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import todo.dto.LoginDTO;
+import todo.util.DBConnector;
+
+
+public class LoginDAO {
+
+	public LoginDTO getLoginUserInfo(Stirng loginUserId, String loginPassword) {
+
+		DBConnector dbConnector = new DBConnector();
+		Connection connection = dbConnector.getConnection();
+		LoginDTO loginDTO = new LoginDTO();
+		String sql = "SELECT * FROM todo_user WHERE login_id = ? AND login_pass = ?";
+
+		try {
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+			preparedStatement.setString(1, loginUserId);
+			preparedStatement.setString(2, loginPassword);
+
+			ResultSet resultSet = preparedStatement.executeQuery();
+
+			if(resultSet.next()) {
+				loginDTO.setLoginId(resultSet.getString("login_id"));
+				loginDTO.setLoginPassword(resultSet.getString("login_pass"));
+				loginDTO.setUserName(resultSet.getString("usesr_name"));
+
+				if(!(resultSet.getString("login_id").equals(null))) {
+					loginDTO.setLoginFlg(true);
+				}
+			}
+
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return loginDTO;
+	}
+
+}
