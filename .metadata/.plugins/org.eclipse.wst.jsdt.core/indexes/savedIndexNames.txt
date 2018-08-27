@@ -1,35 +1,11 @@
-<<<<<<< HEAD
 INDEX VERSION 1.4+C:\Users\jun\Desktop\workspace\git\test\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3589558715.index
-2150458918.index
-2594031532.index
-1078420055.index
-2055351946.index
-1270614830.index
+370430914.index
 565427705.index
+1082899563.index
+1080553708.index
+2594031532.index
 1932053397.index
-3082098993.index
-398611997.index
 2359080536.index
-2254090954.index
-=======
-INDEX VERSION 1.3+C:\Users\internousdev\Desktop\workspace\workspace-yamada\test\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-659214707.index
-1097447711.index
-3474152380.index
-398611997.index
-2795787554.index
-2530802075.index
-3040267609.index
-2150458918.index
-659214707.index
-726817018.index
-3915913391.index
-583524915.index
-1505812771.index
-3357237840.index
-1549101164.index
-2405915424.index
-3088345898.index
-3977942798.index
->>>>>>> d1e223d6ff5250c753dffa27b758475eb34caaea
+3082098993.index
+3589558715.index
+1078420055.index

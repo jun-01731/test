@@ -12,6 +12,10 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\jun\Desktop\新しいフォルダー\TODOapp"/>
+			<item value="C:\Users\jun\Desktop\新しいフォルダー\Servers"/>
+			<item value="C:\Users\jun\Desktop\新しいフォルダー\ecsite"/>
+			<item value="C:\Users\jun\Desktop\新しいフォルダー\docoTsubu"/>
 			<item value="C:\Users\jun\Desktop\workspace\git\test\Capsule2"/>
 			<item value="C:\Users\jun\Desktop\workspace\WebProj4"/>
 			<item value="C:\Users\internousdev\Desktop\temp"/>
