@@ -11,15 +11,16 @@ import util.DBConnector;
 import util.DateUtil;
 
 public class CreateTodoDAO {
-	private DBConnector dbConnector = new DBConnector();
-	private Connection connection = dbConnector.getConnection();
-	private DateUtil dateUtil = new DateUtil();
+
 
 	private String sql = "INSERT INTO todo_list(todo, insert_date) VALUES(?, ?)";
 
 	private boolean result= false;
 	//TODOの追加
 	public boolean todoAdd(String todo) throws SQLException{
+		DBConnector dbConnector = new DBConnector();
+		Connection connection = dbConnector.getConnection();
+		DateUtil dateUtil = new DateUtil();
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, todo);
@@ -39,6 +40,9 @@ public class CreateTodoDAO {
 	public ArrayList<TodoDTO> getTODO() throws SQLException{
 		ArrayList<TodoDTO> todoList = new ArrayList<TodoDTO>();
 		String sql = "SELECT * FROM todo_list";
+		DBConnector dbConnector = new DBConnector();
+		Connection connection = dbConnector.getConnection();
+
 
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
