@@ -12,4 +12,6 @@
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dto.MyPageDTO"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="dto.TodoDTO"/>
+<fullyQualifiedTypeName name="util.DBConnector"/>
 </qualifiedTypeNameHistroy>
