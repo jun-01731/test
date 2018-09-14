@@ -50,6 +50,7 @@ public class CreateTodoDAO {
 
 			while(resultSet.next()) {
 				TodoDTO dto = new TodoDTO();
+				dto.setId(resultSet.getInt("id"));
 				dto.setTodo(resultSet.getString("todo"));
 				todoList.add(dto);
 			}

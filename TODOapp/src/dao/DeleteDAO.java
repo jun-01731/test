@@ -17,7 +17,8 @@ public class DeleteDAO {
 		int result = 0;
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			preparedStatement.setString(1, id);
+			preparedStatement.setString
+			(1, id);
 			result = preparedStatement.executeUpdate();
 		} catch(SQLException e) {
 			e.printStackTrace();

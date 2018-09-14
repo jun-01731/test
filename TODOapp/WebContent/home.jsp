@@ -29,7 +29,7 @@ function goDeleteAction(element){
 <table>
 <s:iterator value="todoList" status="st">
 <tr>
-	<td><s:property value="todo" /><s:hidden name="delete" id="selectedId%{#st.index}" value=""/><td>
+	<td><s:property value="todo" /><s:hidden name="id" value="%{id}"/><s:hidden name="selectedId" id="selectedId%{#st.index}" value=""/><td>
 	<td><td><s:submit id="%{#st.index}" value="complete" class="submit_btn_mini" onclick="goDeleteAction(this);"/></td>
 </tr>
 </s:iterator>
